@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Reda Lamhattat - Data Engineer & Data Analyst. Portfolio professionnel présentant mes compétences en ingénierie des données, Big Data, et Business Intelligence.">
+    <meta name="keywords" content="Data Engineer, Data Analyst, Big Data, Databricks, Power BI, Python, SQL">
+    <meta name="author" content="Reda Lamhattat">
+    
+    <title>Reda Lamhattat</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💼</text></svg>">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#home" class="logo">RL</a>
+            
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            
+            <div class="nav-actions">
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="hero-shape shape-1"></div>
+            <div class="hero-shape shape-2"></div>
+            <div class="hero-shape shape-3"></div>
+        </div>
+        
+        <div class="container hero-container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <i class="fas fa-circle"></i>
+                    <span>Available for a CDI</span>
+                </div>
+                
+                <h1 class="hero-title">
+                    Hello, I'm <span class="gradient-text">Reda Lamhattat</span>
+                </h1>
+                
+                <h2 class="hero-subtitle">
+                    <span class="typing-text">Data Engineer</span>
+                    <span class="cursor">|</span>
+                </h2>
+                
+                <p class="hero-description">
+                    Dual degree holder with a Master’s in Data Processing and Analysis and a Master’s in Computer Science and Decision Exploration. Passionate about data engineering, I am seeking a full-time position to contribute to ambitious, high-impact data projects.
+                </p>
+                
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">
+                        <i class="fas fa-envelope"></i>
+                        Contact me
+                    </a>
+                    <a href="https://github.com/redalam1" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+                        <i class="fab fa-github"></i>
+                        GitHub
+                    </a>
+                    <a href="https://www.linkedin.com/in/reda-lamhattat-7b8635185/" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+                        <i class="fab fa-linkedin"></i>
+                        LinkedIn
+                    </a>
+                </div>
+                
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">2+</span>
+                        <span class="stat-label">Professional Projects</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">2</span>
+                        <span class="stat-label">Master’s Degrees Obtained</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">10+</span>
+                        <span class="stat-label">Technologies Mastered</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Who am I?</span>
+                <h2 class="section-title">About Me</h2>
+                <p class="section-description">Discover my background and skills</p>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="image-wrapper">
+                        <img class="image-profil" src="./images/Profile.png">
+                        <div class="image-decoration"></div>
+                    </div>
+                </div>
+                
+                <div class="about-text">
+                    <h3>Data Engineer / Analyst passionate about innovation</h3>
+                    <p>
+                        Passionate about data engineering, I hold dual Master’s degrees in Data Processing and Analysis and in Computer Science and Decision Exploration. My background has allowed me to develop strong expertise in Data Engineering, Big Data, and Business Intelligence, working on both complex pipelines and the optimization of analytical systems. I enjoy transforming raw data into strategic insights, improving performance, and building robust, scalable solutions. Curious, meticulous, and results-oriented, I am now looking to join an ambitious team to contribute to high-impact data projects and continue growing in a stimulating environment.
+                    </p>
+                    <div class="about-info">
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <span class="info-label">Location</span>
+                                <span class="info-value">Île-de-France, France</span>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <span class="info-label">Email</span>
+                                <span class="info-value">rlamhattat@gmail.com</span>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <span class="info-label">Phone Number</span>
+                                <span class="info-value">06 63 47 90 80</span>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-language"></i>
+                            <div>
+                                <span class="info-label">Languages</span>
+                                <ul>
+                                    <li><span class="info-value">French : C2</span></li>
+                                    <li><span class="info-value">English : C1</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+            
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Experience Section -->
+    <section id="experience" class="experience section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">My Background</span>
+                <h2 class="section-title">Professional Experience</h2>
+                <p class="section-description">My roles and achievements</p>
+            </div>
+            
+            <div class="timeline">
+                <!-- AXA Partners -->
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="experience-card">
+                            <div class="experience-header">
+                                <div class="company-info">
+                                    <h3>Data Engineer / Analyst</h3>
+                                    <h4>AXA Partners</h4>
+                                    <div class="experience-meta">
+                                        <span class="date">
+                                            <i class="fas fa-calendar"></i>
+                                            April 2025 - September 2025
+                                        </span>
+                                        <span class="location">
+                                            <i class="fas fa-map-marker-alt"></i>
+                                            Malakoff, France
+                                        </span>
+                                        <span class="type">
+                                            <i class="fas fa-briefcase"></i>
+                                            Final Year Internship
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="company-logo">
+                                    <img src="./images/axalogo.png" class="image-logo">
+                                </div>
+                            </div>
+                            <p>
+                                In the context of growing reporting and performance management needs, the Data team at AXA Partners was facing issues of slowness, complexity, and lack of documentation in its existing analytical solutions.
+                                <br>The internship was part of a global optimization initiative for the decision-making chain, from ingesting data from Qualtrics to delivering it in Power BI and OLAP cubes. The goal was to improve the performance, reliability, and maintainability of data pipelines, while providing business teams with clear, responsive dashboards tailored to their KPI and NPS tracking needs.
+                            </p>
+                            <div class="experience-description">
+                                <ul class="achievements">
+                                    <li class="task-item">
+                                        <i class="fas fa-info-circle"></i>
+                                        <span class="task-title"><strong>Datamart Optimization and Reliability Improvement</strong></span>
+                                        <div class="task-tooltip">
+                                            Implementation of data consistency and granularity checks in Databricks (volume tests, business keys, aggregations), optimization of SQL scripts for Datamart creation, and redesign of Power BI models.
+                                            <br><strong>Results:</strong> Reduced Datamart pipeline creation time by 30 minutes, OLAP cube size decreased from 355 MB to 64 MB (-82%), with significant improvements in dashboard performance, stability, and reliability.
+                                            </div>
+                                    </li>
+                                    <li class="task-item">
+                                        <i class="fas fa-info-circle"></i>
+                                        <span class="task-title"><strong>Performance Improvement of DAX Formulas</strong></span>
+                                        <div class="task-tooltip">
+                                            Simplification of complex measures, replacement of calculated columns with optimized measures, use of variables, and reduction of redundant filter contexts. <br><strong>Results:</strong> Query speed up to 12× faster, ensuring smoother performance and an improved user experience.
+                                        </div>
+                                    </li>
+                                    <li class="task-item">
+                                        <i class="fas fa-info-circle"></i>
+                                        <span class="task-title"><strong>Improvement of Business Visualizations</strong></span>
+                                        <div class="task-tooltip">
+                                            Creation and redesign of strategic Power BI pages: consolidation and simplification of visuals, enhanced dashboard readability, and highlighting key indicators for effective KPI tracking. <br><strong>Results:</strong> Facilitated decision-making and improved data comprehension for business teams.
+                                        </div>
+                                    </li>
+                                    <li class="task-item">
+                                        <i class="fas fa-info-circle"></i>
+                                        <span class="task-title"><strong>Redesign of the Qualtrics Pipeline</strong></span>
+                                        <div class="task-tooltip">
+                                            Analysis and redesign of an undocumented pipeline: correction of API permissions, addition of new surveys, standardization and automation of steps to ensure reliability and maintainability. <br><strong>Results:</strong> Implementation of comprehensive documentation, facilitating pipeline usage and maintenance.
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            
+                            <div class="tech-stack">
+                                <span class="tech-tag">Databricks</span>
+                                <span class="tech-tag">Power BI</span>
+                                <span class="tech-tag">DAX</span>
+                                <span class="tech-tag">SQL</span>
+                                <span class="tech-tag">Azure Data Lake</span>
+                                <span class="tech-tag">Azure Analysis Services</span>
+                                <span class="tech-tag">Azure DevOps</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- BNP Paribas -->
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="experience-card">
+                            <div class="experience-header">
+                                <div class="company-info">
+                                    <h3>Data Engineer</h3>
+                                    <h4>BNP Paribas</h4>
+                                    <div class="experience-meta">
+                                        <span class="date">
+                                            <i class="fas fa-calendar"></i>
+                                            September 2023 - March 2024
+                                        </span>
+                                        <span class="location">
+                                            <i class="fas fa-map-marker-alt"></i>
+                                            Montreuil, France
+                                        </span>
+                                        <span class="type">
+                                            <i class="fas fa-briefcase"></i>
+                                            Final Year Internship
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="company-logo">
+                                    <img src="./images/bnplogo.jpg" class="image-logo">
+                                </div>
+                            </div>
+                            <p>
+                                In the context of increasing volumes of application logs and growing monitoring and system supervision needs, the Data team at BNP Paribas had to ensure the stability, performance, and security of its real-time data collection and analysis ecosystem.
+                            <br>The internship was part of an initiative to optimize and stabilize ELK pipelines (Kafka, Logstash, Elasticsearch), aiming to improve platform availability, the quality of collected data, and the efficiency of monitoring and incident management for operational teams.
+                            </p>
+                            <div class="experience-description">
+                                <ul class="achievements">
+                                    <li class="task-item">
+                                        <i class="fas fa-info-circle"></i>
+                                        <span class="task-title"><strong>Elastic Stack Cluster Management</strong></span>
+                                        <div class="task-tooltip">
+                                            Administration and optimization of Elasticsearch, Kafka, and Logstash clusters: proactive shard management, optimized distribution, securing client access via roles and ACLs, and enhanced monitoring to reduce incidents. <br><strong>Results:</strong> Maintained high availability and performance, significantly reduced critical incidents, and improved operational stability.
+                                        </div>
+                                    </li>
+                                    <li class="task-item">
+                                        <i class="fas fa-info-circle"></i>
+                                        <span class="task-title"><strong>Optimization of ELK Pipelines</strong></span>
+                                        <div class="task-tooltip">
+                                            Improved efficiency of data processing pipelines (Kafka, Logstash, Elasticsearch): optimized data flows, fixed log routing issues, and automated certain steps for smoother processing. <br><strong>Results:</strong> Increased throughput, reduced latency, and more reliable pipelines for data processing.
+                                        </div>
+                                    </li>
+                                    <li class="task-item">
+                                        <i class="fas fa-info-circle"></i>
+                                        <span class="task-title"><strong>Kafka Security</strong></span>
+                                        <div class="task-tooltip">
+                                            Management of ACLs (Access Control Lists) and access permissions on Kafka clusters to secure data and control user rights. <br><strong>Results:</strong> Enhanced security, restricted unauthorized access, and improved data governance.
+                                        </div>
+                                    </li>
+                                    <li class="task-item">
+                                        <i class="fas fa-info-circle"></i>
+                                        <span class="task-title"><strong>Monitoring Improvement</strong></span>
+                                        <div class="task-tooltip">
+                                            Optimization of monitoring and alert systems for ELK clusters: reviewed thresholds, centralized alerts, and automated notifications for more efficient tracking.
+                                        <br><strong>Results:</strong> Reduced unnecessary incidents by 40%, improving operational reliability and team responsiveness.
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            
+                            <div class="tech-stack">
+                                <span class="tech-tag">Elasticsearch</span>
+                                <span class="tech-tag">Logstash</span>
+                                <span class="tech-tag">Kibana</span>
+                                <span class="tech-tag">Beats</span>
+                                <span class="tech-tag">Kafka</span>
+                                <span class="tech-tag">GitLab</span>
+                                <span class="tech-tag">Jira</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">My Expertise</span>
+                <h2 class="section-title">Skills</h2>
+                <p class="section-description">Technologies and tools I master</p>
+            </div>
+            
+            <div class="skills-grid">
+                <!-- Data Processing & Analysis -->
+                <div class="skill-category">
+                    <div class="category-header">
+                        <i class="fas fa-database"></i>
+                        <h3>Data Processing & Analysis</h3>
+                    </div>
+                    <div class="skills-list">
+                        <span class="skill-badge"><img src="./images/databricks.png" class="skill-icon">Databricks</span>
+                        <span class="skill-badge"><img src="./images/pyspark.png" class="skill-icon">PySpark</span>
+                        <span class="skill-badge"><img src="./images/Python.png" class="skill-icon">Python</span>
+                        <span class="skill-badge"><img src="./images/sql.png" class="skill-icon">SQL</span>
+                        <span class="skill-badge"><img src="./images/oracle.png" class="skill-icon">Oracle</span>
+                        <span class="skill-badge"><img src="./images/talend.png" class="skill-icon">Talend</span>
+                        <span class="skill-badge"><img src="./images/elasticseach.png" class="skill-icon">Elasticsearch</span>
+                    </div>
+                </div>
+                
+                <!-- Data Engineering / Big Data -->
+                <div class="skill-category">
+                    <div class="category-header">
+                        <i class="fas fa-cloud"></i>
+                        <h3>Data Engineering / Big Data</h3>
+                    </div>
+                    <div class="skills-list">
+                        <span class="skill-badge"><img src="./images/azurelake.jpg" class="skill-icon"></i>Azure Data Lake</span>
+                        <span class="skill-badge"><img src="./images/databricks.png" class="skill-icon">Azure Databricks</span>
+                        <span class="skill-badge"><img src="./images/ssas.png" class="skill-icon">Azure Analysis Services</span>
+                        <span class="skill-badge"><img src="./images/kafka.png" class="skill-icon">Kafka</span>
+                    </div>
+                </div>
+                
+                <!-- BI & Visualisation -->
+                <div class="skill-category">
+                    <div class="category-header">
+                        <i class="fas fa-chart-line"></i>
+                        <h3>BI & Visualization</h3>
+                    </div>
+                    <div class="skills-list">
+                        <span class="skill-badge"><img src="./images/powerbi.png" class="skill-icon">Power BI</span>
+                        <span class="skill-badge"><img src="./images/dax.jpg" class="skill-icon">DAX</span>
+                        <span class="skill-badge"><img src="./images/ibana.png" class="skill-icon">Kibana</span>
+                    </div>
+                </div>
+                
+                <!-- Développement & CI/CD -->
+                <div class="skill-category">
+                    <div class="category-header">
+                        <i class="fas fa-code-branch"></i>
+                        <h3>Development & CI/CD</h3>
+                    </div>
+                    <div class="skills-list">
+                        <span class="skill-badge"><img src="./images/gitlab.png" class="skill-icon">GitLab</span>
+                        <span class="skill-badge"><img src="./images/azuredevops.png" class="skill-icon">Azure DevOps</span>
+                    </div>
+                </div>
+                
+                <!-- Gestion de projet -->
+                <div class="skill-category">
+                    <div class="category-header">
+                        <i class="fas fa-tasks"></i>
+                        <h3>Project Management</h3>
+                    </div>
+                    <div class="skills-list">
+                        <span class="skill-badge"><img src="./images/jira.png" class="skill-icon">Jira</span>
+                        <span class="skill-badge"><img src="./images/ajile.jpg" class="skill-icon">Agile</span>
+                        <span class="skill-badge"><img src="./images/scrum.png" class="skill-icon">Scrum</span>
+                    </div>
+                </div>
+                
+                <!-- Soft Skills -->
+                <div class="skill-category">
+                    <div class="category-header">
+                        <i class="fas fa-lightbulb"></i>
+                        <h3>Soft Skills</h3>
+                    </div>
+                    <div class="skills-list">
+                        <span class="skill-badge"><i class="fas fa-palette"></i> Creativity</span>
+                        <span class="skill-badge"><i class="fas fa-users"></i> Teamwork</span>
+                        <span class="skill-badge"><i class="fas fa-brain"></i> Analytical Thinking</span>
+                        <span class="skill-badge"><i class="fas fa-clipboard-list"></i> Organization</span>
+                        <span class="skill-badge"><i class="fas fa-sync-alt"></i> Adaptability</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Projects Section -->
+    
+    <section id="projects" class="projects section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">My Achievements</span>
+                <h2 class="section-title">Personal Projects</h2>
+                <p class="section-description">Explore my data projects</p>
+            </div>
+            
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-image-placeholder">
+                            <i class="fas fa-flag-checkered"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="https://github.com/redalam1/powerbi-reports" target="_blank" rel="noopener noreferrer" class="project-link">
+                                <i class="fab fa-github"></i>
+                                View Project
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Power BI – Multi-Topic Decision Analysis</h3>
+                        <p>
+                            <p>
+                                A series of interactive Power BI reports developed from diverse datasets, focusing on decision analysis, data modeling, and the creation of clear and impactful visualizations.
+                            </p>
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Power Bi</span>
+                            <span class="tech-tag">Power Query</span>
+                            <span class="tech-tag">Excel</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-image-placeholder">
+                            <i class="fas fa-futbol"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="https://github.com/redalam1" target="_blank" rel="noopener noreferrer" class="project-link">
+                                <i class="fab fa-github"></i>
+                                Voir le projet
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Analyse des Joueurs de Football</h3>
+                        <p>
+                            Projet de web scraping multi-sites pour collecter et consolider les statistiques des joueurs de football. 
+                            Développement d'une base de données Oracle pour stocker les données, suivie de la création de dashboards 
+                            Power BI pour analyser les performances et tendances des joueurs.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">BeautifulSoup</span>
+                            <span class="tech-tag">Oracle</span>
+                            <span class="tech-tag">SQL</span>
+                            <span class="tech-tag">Power BI</span>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </section>
+    
+    <!-- Education Section -->
+    <section id="education" class="education section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">My Academic Background</span>
+                <h2 class="section-title">Education</h2>
+                <p class="section-description">Degrees and Certifications</p>
+            </div>
+            
+            <div class="education-grid">
+                <!-- Master 2 -->
+                <div class="education-card">
+                    <div class="education-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="education-content">
+                        <span class="education-year">2024 - 2025</span>
+                        <h3>Master 2 EID2</h3>
+                        <h4>Exploration Informatique des Données et Décisionnel</h4>
+                        <p class="education-school">
+                            <i class="fas fa-university"></i>
+                            University Sorbonne Paris Nord
+                        </p>
+                        <p class="education-description">
+                            Specialization in data exploration, business intelligence, and artificial intelligence.
+                            Advanced training in Big Data, Machine Learning, and decision support systems.
+                        </p>
+                    </div>
+                </div>
+                
+                <!-- Master Informatique -->
+                <div class="education-card">
+                    <div class="education-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="education-content">
+                        <span class="education-year">2021 - 2024</span>
+                        <h3>Master Informatique</h3>
+                        <h4>Traitement et Analyse des Données</h4>
+                        <p class="education-school">
+                            <i class="fas fa-university"></i>
+                            University Paris Diderot
+                        </p>
+                        <p class="education-description">
+                            Comprehensive computer science education with a specialization in data processing and analysis.
+                            Acquired skills in advanced programming, databases, and statistical analysis.
+                        </p>
+                    </div>
+                </div>
+                
+                <!-- Double Licence -->
+                <div class="education-card">
+                    <div class="education-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="education-content">
+                        <span class="education-year">2018 - 2021</span>
+                        <h3>Double Bachelor’s Degree</h3>
+                        <h4>Mathematics & Computer Science</h4>
+                        <p class="education-school">
+                            <i class="fas fa-university"></i>
+                            University Sorbonne Paris Nord
+                        </p>
+                        <p class="education-description">
+                            Dual program combining mathematics and computer science, providing a solid foundation in algorithms, data structures, mathematical analysis, and algebra.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interests Section -->
+    <section id="interests" class="interests section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Outside of Work</span>
+                <h2 class="section-title">Interests</h2>
+                <p class="section-description">My Passions and Hobbies</p>
+            </div>
+            
+            <div class="interests-grid">
+                <div class="interest-card">
+                    <div class="interest-icon">
+                        <i class="fas fa-mountain"></i>
+                    </div>
+                    <h3>Climbing</h3>
+                    <p>Regular practice of climbing, developing perseverance, focus, and self-challenge</p>
+                </div>
+                
+                <div class="interest-card">
+                    <div class="interest-icon">
+                        <i class="fas fa-futbol"></i>
+                    </div>
+                    <h3>Football</h3>
+                    <p>Passionate about football, fostering teamwork, strategy, and collective performance</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Stay in Touch</span>
+                <h2 class="section-title">Contact Me</h2>
+                <p class="section-description">Feel free to reach out for any opportunities</p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <a href="mailto:rlamhattat@gmail.com">
+                        <div class="contact-card">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <h3 class="mail-title">Email</h3>
+                            <h class="mail">rlamhattat@gmail.com</h>
+                        </div>
+                    </a>
+                    <a href="tel:+33663479080">
+                        <div class="contact-card">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <h3 class="mail-title">Phone Number</h3>
+                            <h class="mail">06 63 47 90 80</h>
+                        </div>
+                    </a>
+                    <a>
+                        <div class="contact-card">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <h3 class="mail-title">Location</h3>
+                            <h class="mail">Île-de-France, France</h>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-social">
+                    <a href="mailto:rlamhattat@gmail.com" class="social-link" aria-label="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a href="https://github.com/redalam1" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/reda-lamhattat-7b8635185/" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </div>
+                
+                <div class="footer-text">
+                    <p>&copy; 2025 Reda Lamhattat. Tous droits réservés.</p>
+                    <p>Conçu avec passion pour l'ingénierie des données</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="back-to-top" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+    <script src="js/animations.js"></script>
+</body>
+</html>
